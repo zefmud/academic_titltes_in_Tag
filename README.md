@@ -38,7 +38,7 @@ However, we observed an unexplained oscillation in 1916, when the number of arti
 
 
 ## How to use it
-Download the [tar.gz files of the “Der Tag” newspaper](https://lab.sbb.berlin/on-this-day/) and save them in the *archives* folder. Then run the Python scripts *pages_per_date.py* and *extract.py*.  
+Download the [tar.gz files of the “Der Tag” newspaper](https://lab.sbb.berlin/on-this-day/) and save them in the *archives* folder in the repo directory. Then run the Python scripts *pages_per_date.py* and *extract.py*.  
 This will generate two files: *pages.csv* (a list of all page files, with the date extracted from the filename) and *titles.csv* (a list of all detected authorship blocks).  
 
 Afterwards, you can analyze the dynamics by editing and expanding the *analysis.R* script.
